@@ -4,21 +4,32 @@
 int main(void)
 {
     // TODO: Prompt for start size
+    int starting_size;
 
-    int starting_size = get_int("Starting Size: ");
+    do
+    {
+            starting_size = get_int("Starting Size: ");
+    }
+    while(staring_size < 9);
+
+
 
     // TODO: Prompt for end size
 
-    int end_size = get_int("End Size: ");
+    int end_size;
+    do
+    {
+    end_size = get_int("End Size: ");
+    }
+    while(end_size < starting_size);
+
+
 
     // TODO: Calculate number of years until we reach threshold
 
     int years_to_end = 0;
 
-if(starting_size > 9 && starting_size < end_size)
-{
     int total_llamas = starting_size;
-
 
     do
     {
@@ -31,8 +42,6 @@ if(starting_size > 9 && starting_size < end_size)
     }
     while(total_llamas < end_size);
 
-}
-if else(starting_size < 9 || starting_size < end_size)
 
 
 
