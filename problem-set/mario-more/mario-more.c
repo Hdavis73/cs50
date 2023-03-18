@@ -13,10 +13,10 @@ int main(void)
     while(8 < height || height < 1);
 
 
-    for (int i = height; i >= 1; i--)
+    for (int i = height; i >= 0; i--)
     {
         for (int h = i; h >= 1; h--){
-            printf(".");
+            printf(" ");
         }
 
         for (int j = i; j <= height; j++){
