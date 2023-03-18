@@ -15,12 +15,12 @@ int main(void)
 
 if(starting_size < 9 || starting_size > end_size)
 {
-    printf("try agrain\n");
+    
 }
 
 
 
     // TODO: Print number of years
 
-    printf("%i\n", years_to_size);
+    // printf("%i\n", years_to_size);
 }
