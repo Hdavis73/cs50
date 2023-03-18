@@ -8,7 +8,7 @@ int main(void)
     //get user input, if input is greater than 8
     do
     {
-        height = get_int("");
+        height = get_int("height:");
     }
     while( 8 < height || height < 1 );
 
