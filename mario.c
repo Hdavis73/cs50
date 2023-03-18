@@ -20,7 +20,7 @@ int get_size(void)
    return num
 }
 
-int print_grid(int num)
+void print_grid(int num)
 {
     for(int i = 0; i < num; i++)
     {
