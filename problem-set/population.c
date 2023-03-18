@@ -13,10 +13,12 @@ int main(void)
 
     // TODO: Calculate number of years until we reach threshold
 
+    int years_to_end = 0;
+
 if(starting_size > 9 && starting_size < end_size)
 {
     int total_llamas = starting_size;
-    int years_to_end = 0;
+
 
     do
     {
@@ -30,6 +32,7 @@ if(starting_size > 9 && starting_size < end_size)
     while(total_llamas < end_size);
 
 }
+if else(starting_size < 9 || starting_size < end_size)
 
 
 
