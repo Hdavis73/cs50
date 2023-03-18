@@ -13,9 +13,10 @@ int main(void)
 
     // TODO: Calculate number of years until we reach threshold
 
-if(starting_size < 9 || starting_size > end_size)
+if(starting_size > 9 && starting_size < end_size)
 {
     
+
 }
 
 
