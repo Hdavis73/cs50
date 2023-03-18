@@ -23,11 +23,11 @@ if(starting_size > 9 && starting_size < end_size)
         int new_llamas = starting_size / 3;
         int dead_llamas = starting_size / 4;
 
-        int total_llamas = total_llamas + new_llamas - dead_llamas;
+        total_llamas = total_llamas + new_llamas - dead_llamas;
 
-        int years_to_end += 1;
+        years_to_end++;
     }
-    while(total_llamas < end_size)
+    while(total_llamas < end_size);
 
 }
 
@@ -35,5 +35,5 @@ if(starting_size > 9 && starting_size < end_size)
 
     // TODO: Print number of years
 
-    printf("%i\n", years_to_size);
+    printf("%i\n", years_to_end);
 }
