@@ -5,13 +5,13 @@ int main(void)
 {
     int height;
 
-    // for (int i = 0; height < 1)
-
+    //get user input, if input is greater than 8
     do
     {
         height = get_int("Height: ");
     }
-    while( 9 < height || height < 1 );
+    while( 8 < height || height < 1 );
+
 
     for (int i = height; i >= 1; i--)
     {
