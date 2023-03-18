@@ -13,9 +13,9 @@ int main(void)
     }
     while( 9 < height || height < 1 );
 
-    for (int i = height; i >= 1; i--)
+    for (int i = 1; i <= height; i++)
     {
-        for (int j = 1; j <= i; j++){
+        for (int j = i; j <= height; j++){
             printf("#");
         }
 
