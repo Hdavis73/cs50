@@ -2,8 +2,16 @@
 
 int main(void)
 {
-    for(int i = 0; i < 3; i++)
+    int num = 3;
+
+    for(int i = 0; i < num; i++)
     {
-        printf("#\n");
+
+        for(int j = 0; j < num; j++)
+        {
+            printf("#");
+        }
+
+        printf("\n");
     }
 }
