@@ -15,7 +15,7 @@ int main(void)
 
 if(starting_size < 9 || starting_size > end_size)
 {
-    printf("try agrain\n")
+    printf("try agrain\n");
 }
 
 
