@@ -10,7 +10,7 @@ int main(void)
     {
             starting_size = get_int("Starting Size: ");
     }
-    while(staring_size < 9);
+    while(starting_size < 9);
 
 
 
