@@ -3,22 +3,29 @@
 
 int main(void)
 {
-    int num;
-    do
+    int num = get_size()
+    print_grid(num)
+
+}
+
+int get_size(void)
+{
+   do
+   {
+    num = get_int("Size:");
+   }
+   while(num < 1)
+
+   return num
+}
+
+int get_grid(num)
+{
+    for(let i = 0; i < num; i++)
     {
-        num = get_int("Size:");
-    }
-    while( num < 1);
-
-
-
-    for(int i = 0; i < num; i++)
-    {
-        for(int j = 0; j < num; j++)
+        for(let j = 0; j < num; j++)
         {
             printf("#");
         }
-
-        printf("\n");
     }
 }
