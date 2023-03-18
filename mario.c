@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int num = 3;
+    const int num = 3;
 
     for(int i = 0; i < num; i++)
     {
