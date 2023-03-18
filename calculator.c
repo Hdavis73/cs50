@@ -6,7 +6,7 @@ int main(void)
     long x = get_int("x: ");
     long y = get_int("y: ");
 
-    float z = x/y;
+    float z = (float) x/ (float) y;
 
     printf("%f\n", z);
 
