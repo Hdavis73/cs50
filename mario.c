@@ -22,11 +22,12 @@ int get_size(void)
 
 int print_grid(int num)
 {
-    for(let i = 0; i < num; i++)
+    for(int i = 0; i < num; i++)
     {
-        for(let j = 0; j < num; j++)
+        for(int j = 0; j < num; j++)
         {
             printf("#");
         }
+        printf("/n");
     }
 }
