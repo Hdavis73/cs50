@@ -15,7 +15,14 @@ int main(void)
 
 if(starting_size > 9 && starting_size < end_size)
 {
-    
+    int total_llamas = starting_size;
+    int years_to_end;
+
+    do
+    {
+        
+    }
+    while()
 
 }
 
