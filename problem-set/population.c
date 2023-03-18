@@ -31,7 +31,7 @@ int main(void)
 
     int total_llamas = starting_size;
 
-    for( i = 0; total_llamas < end_size; i++)
+    for (i = 0; total_llamas < end_size; i++)
     {
         int new_llamas = total_llamas / 3;
         int dead_llamas = total_llamas / 4;
