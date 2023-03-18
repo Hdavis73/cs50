@@ -33,8 +33,8 @@ int main(void)
 
     for( i = 0; total_llamas < end_size; i++)
     {
-        int new_llamas = starting_size / 3;
-        int dead_llamas = starting_size / 4;
+        int new_llamas = total_llamas / 3;
+        int dead_llamas = total_llamas / 4;
 
         total_llamas = total_llamas + (float) new_llamas - (float) dead_llamas;
     }
