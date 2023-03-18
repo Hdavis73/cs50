@@ -39,19 +39,6 @@ int main(void)
         total_llamas = total_llamas + (float) new_llamas - (float) dead_llamas;
     }
 
-    // do
-    // {
-    //     int new_llamas = starting_size / 3;
-    //     int dead_llamas = starting_size / 4;
-
-    //     total_llamas = total_llamas + new_llamas - dead_llamas;
-
-    //     years_to_end++;
-    // }
-    // while(total_llamas < end_size);
-
-
-
 
     // TODO: Print number of years
 
