@@ -31,6 +31,6 @@ void print_grid(int num)
         {
             printf("#");
         }
-        printf("/n");
+        printf("\n");
     }
 }
