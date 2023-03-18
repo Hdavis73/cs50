@@ -10,6 +10,7 @@ int main(void)
 
 int get_size(void)
 {
+    int num;
    do
    {
     num = get_int("Size:");
@@ -19,7 +20,7 @@ int get_size(void)
    return num
 }
 
-int get_grid(num)
+int print_grid(int num)
 {
     for(let i = 0; i < num; i++)
     {
