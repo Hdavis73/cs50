@@ -1,0 +1,31 @@
+'\n' breaks a line in the terminal, else everything will be printed on one line
+
+single characters use '' and anything more uses ""
+
+unlike Javascript, semicolons are required
+
+will not automatically detect when a function comes after it is called. To use functions
+that are placed after main code, put the FULL name of the function followed by a semicolon
+before the main function
+
+before creating any variable or function you after to type what kind of variable or return value
+is expected ie char, int, string...
+
+requires the use of libraries for a LOT of newer features to be implemented
+
+must put void in functions that do not take an argument, and put the type of data (int, char, string)
+an argument is if an argument is included
+
+standard to use _ instead of camelCasing
+
+depending on the output type, %i, %s, %li... is followed by a variable name to input a variable into a string ("hello %s", name) (%i", num)
+
+because of how code is processed into binary code for the computer to read, to return a value any larger than 
+around 4.5 million you have to use li (long) variable type instead of int (integer)
+
+similarly to the previous note, to return a decimal value you must convert the ints being divided into floats,
+and return a float ( (float) x / (float) y), (printf("%f\n", z))
+
+because of the limitations of C and how it works with software, things can get imprecise when using decimal values past a certain point.
+to get a little more precision for a few more places, float can be replaced with keyword double, but beyond that a different more modern 
+language would be a more precise option
