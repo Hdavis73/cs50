@@ -8,10 +8,7 @@ int main(void)
     long card_number = get_long("Card Number:");
 
     //multiply every other digit by 2 starting with second to last digit
-    for(int i = 0; i < card_number; i++)
-    {
-        printf("%i\n", i);
-    }
+    
     //add the digits in the products together
     //add the sum to the sum of the digits that werent multiplied by two
     //if the last digit of that number is 0 the card is valid
