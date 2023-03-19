@@ -4,13 +4,9 @@
 int main(void)
 {
     //get valid input credit card number
-    int card_number;
-    do
-    {
-        card_number = get_int("Enter Card Number");
-    }
-    while ()
     //must be at least 13 characters
+    long card_number = get_long("Card Number:");
+
     //multiply every other digit by 2 starting with second to last digit
     //add the digits in the products together
     //add the sum to the sum of the digits that werent multiplied by two
