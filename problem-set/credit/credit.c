@@ -12,11 +12,13 @@ int main(void)
 
     while(card_number > 0)
     {
-        sum += card_number % 10;
+        sum = card_number % 10;
         card_number = card_number / 10;
+
+        printf("%i\n", sum);
     }
 
-    printf("%i\n", sum);
+
 
 
     //add the digits in the products together
