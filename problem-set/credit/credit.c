@@ -10,9 +10,9 @@ int main(void)
 
     //multiply every other digit by 2 starting with second to last digit
 
-    while(card_number > 0)
+    while(card_number > 0 )
     {
-        sum = card_number % 20;
+        sum = card_number % 10;
         card_number = card_number / 10;
 
         printf("%i\n", sum);
