@@ -12,7 +12,7 @@ int main(void)
 
     while(card_number > 0)
     {
-        sum = card_number % 10;
+        sum = card_number % 20;
         card_number = card_number / 10;
 
         printf("%i\n", sum);
